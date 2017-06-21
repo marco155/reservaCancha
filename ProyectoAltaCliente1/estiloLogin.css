@@ -1,0 +1,276 @@
+﻿
+body{
+    background-image: url(IMG/fondo1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-attachment:fixed;   
+}
+
+#encabezado
+{
+	width: 100%;
+	height: 100px;
+    background-color: #2C2C2C;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+#menuS
+{
+	width: 80%;
+	height: 100px;
+	float: left;
+
+}
+.entradas
+{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	background-color: #F97353;
+	margin-left: 20%;
+	border-radius: 40px;
+	border: 1px solid black;
+	 text-decoration: none;
+}
+
+.entradas:hover
+{
+	background-color: #9A6CD0;
+}
+#fot {
+     width: 30%;
+     height: 100px;
+     float: left;
+     margin-left: 30%;
+     margin-top: 0px;
+}
+
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li
+{
+	float: left;
+	margin-top: 5px;
+	margin-left: 3%;
+	font-size: 20px;
+
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 25px; 
+  color: #fff;
+  border: 1px solid blue;
+  border-radius: : 20px;
+}
+
+.margin a
+{
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.margin a:hover
+{
+	color: white;
+	background: #6C1EBD;
+}
+
+
+
+
+#usuario
+{
+	width: 20%;
+	height: 100px;
+	float: left;
+}
+
+
+#datos
+{
+	float: left;
+	width: 60%;
+	height: 100px;
+}
+#datos a
+{
+ text-decoration: none;
+  color: red;
+}
+#datos a:hover
+{
+  color: green;
+}
+
+
+.letra
+{
+	width: 100%;
+	height: 25%;
+	color: white;
+	font-family: sans-serif;
+	font-size: 100%;
+	margin-left: 10%;
+
+}
+
+
+#logo
+{
+	width: 26%;
+	height: 100px;
+	float: right;
+	background-image: url(IMG/usa.png);
+}
+
+
+
+.nada {
+    width:10%;
+    height: 1px;
+    float:left;
+    }
+#pag
+{
+  width: 80%;
+  height: auto;
+  float: left;
+ /* opacity: 0.5;*/
+}
+
+/*
+#pag:hover
+{
+	opacity: 0.9;
+}
+*/
+
+
+#blok1
+{
+	width: 100%;
+	height: 780px;	
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+
+#calen
+{
+	width: 60%;
+	float: left;
+	height: 60%;
+	border: 3px solid green;
+	margin-top: 10%;
+	background-image: url(IMG/calendario.jpg);
+	background-size: 100% 100%;
+}
+
+#texto
+{
+	width: 30%;
+	height: 60%;
+	float: left;
+	margin-top: 10%;
+	margin-left: 5%;
+    /*border: 1px solid black;*/
+}
+
+p
+{
+	color: red ;
+	font-family: sans-serif;
+	font-size: 120%;
+}
+
+
+ 
+@media (min-width: 1493px) and (max-width: 1700px)
+{
+			nav ul {
+		  list-style: none;
+		  overflow: hidden; /* Limpiamos errores de float */
+		}
+
+		nav ul li
+		{
+			float: left;
+			margin-top: 1%;
+			margin-left: 3%;
+			font-size: 20px;
+
+		}
+
+		nav ul li a {
+		  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+		  padding: 15px; 
+		  color: #fff;
+		  border: 1px solid red;
+		  border-radius: : 20px;
+		}
+
+}
+
+
+@media (min-width: 1293px) and (max-width: 1490px)
+{
+			nav ul {
+		  list-style: none;
+		  overflow: hidden; /* Limpiamos errores de float */
+		}
+
+		nav ul li
+		{
+			float: left;
+			margin-top: 1%;
+			margin-left: 0.5%;
+			font-size: 20px;
+
+		}
+
+		nav ul li a {
+		  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+		  padding: 15px; 
+		  color: #fff;
+		  border: 1px solid red;
+		  border-radius: : 20px;
+		}
+
+}
+
+@media (min-width: 793px) and (max-width: 1190px)
+{
+			nav ul {
+		  list-style: none;
+		  overflow: hidden; /* Limpiamos errores de float */
+		}
+
+		nav ul li
+		{
+			float: left;
+			margin-top: 1%;
+			margin-left: 0.3%;
+			font-size: 14px;
+
+		}
+
+		nav ul li a {
+		  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+		  padding: 15px; 
+		  color: #fff;
+		  border: 1px solid red;
+		  border-radius: : 20px;
+		}
+
+}

@@ -1,0 +1,626 @@
+﻿body {
+    background-image: url(IMG/fondo1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-attachment:fixed;   
+}
+#tab a
+{
+
+    text-decoration: none;
+    color:#9A6CD0;
+}
+
+
+
+
+.margen
+{
+    margin-left: 10%;
+}
+
+
+#barra {
+    width:100%;
+    height: 120px;
+   /* border: 1px solid black;*/
+    background-color: #2C2C2C;
+    background-attachment: fixed;
+    float:left;
+    position: fixed;
+    z-index: 100;   
+}
+
+
+
+
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul  li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 25px; 
+  color: #fff;
+  border: 1px solid white;
+}
+ 
+nav ul li:hover {
+  background: #F0F0F0;
+}
+
+#b
+{
+	width: 80%;
+	height: 120px;
+    float: left;
+    /* border: 1px solid black;*/
+   
+}
+#barra1
+{
+	width: 75%;
+	height: 120px;
+	float: right;	
+	 /* border: 1px solid black;*/
+}
+
+#barra1 a
+{
+	text-decoration: none;
+}
+#barra1 a:hover
+{
+	color: #F97353;
+}
+
+
+
+
+
+
+#inicio {
+     width:20%;
+     height:180px;
+     float: left;
+      /* border: 1px solid black;*/
+     background-color: #6C1EBD;
+     background-attachment:fixed;
+     opacity: 0.5;
+}
+
+#inicio:hover
+{
+	opacity: 0.9;
+}
+
+
+.label1 
+{
+    width: 100%;
+    margin-left: 30%;
+    height: 15%;
+    font-size: 21px;
+    font-family:SansSerif;
+    color: white;
+}
+
+.text1
+{
+    width: 100%;
+    height:20%;
+    border-style: double;
+    border-radius: 20px;
+    font-size:21px;
+    font-family: SansSerif;
+}
+
+.boton1
+{
+    width: 100%;
+    height:20%;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color:black;
+    color: aliceblue;
+}
+
+.boton1:hover
+{
+    background-color: #271e1e;
+}
+
+
+
+
+   
+
+
+    #pag
+    {
+        width: 60%;
+        height: auto;
+        margin: auto;
+        background-color:#2C2C2C;
+        float: left;
+       opacity: 0.5;
+       
+    }
+
+    #pag:hover
+    {
+        opacity: 0.9;
+    }
+
+    #nada1 {
+    width:20%;
+    height: 1px;
+    float:left;
+    }
+    
+
+
+
+
+#img1
+{
+   background-image: url(IMG/img1.jpg); 
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   width: 100%;
+   height: 905px;
+}
+
+#slogan
+{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    float: right;
+    margin-right: 50%;
+    /*border: 1px solid black;*/
+}
+
+#dentro
+{
+	width: 100%;
+	height: 200px;
+	margin-top: 70%;
+	/*border: 1px solid black;*/
+}
+
+#dentro h2
+{
+	width: 180%;
+	font-size: 25px;
+	color: black;
+	font-family: sans-serif;
+}
+
+.entradas
+{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white;
+	background-color: #F97353;
+	margin-left: 20%;
+	border-radius: 40px;
+	border: 1px solid black;
+	 text-decoration: none;
+}
+
+.entradas:hover
+{
+	background-color: #9A6CD0;
+}
+
+#img2
+{
+    background-image: url(IMG/cv2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+ 
+    height: 905px;
+}
+
+
+#iz
+{
+	width: 40%;
+	height: 100%;
+	/*border: 1px solid black;*/
+	float: left;
+	margin-left: 40%;
+}
+
+#iz1
+{
+	width: 100%;
+	height: 300px;
+	/*border: 1px solid black;*/
+	margin-top: 85%;
+}
+
+
+#iz1 h2 
+{
+	
+	font-size: 25px;
+	color: black;
+	font-family: sans-serif;
+}
+
+#img3
+{
+	background-image: url(IMG/publi3.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 700px;
+}
+
+#der
+{
+	width: 40%;
+	float: right;
+	height: 100%;
+	/*border: 1px solid black;*/
+}
+
+
+#der1
+{
+	width: 100%;
+	height: 300px;
+	/*border: 1px solid black;*/
+	margin-top: 85%;
+	font-family: sans-serif;
+	color: white;
+}
+
+
+#footer
+{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+#pie
+{
+	width: 60%;
+	height: 400px;
+	margin:auto;
+	background-color:#2C2C2C;
+
+}
+
+#i
+{
+	width: 49%;
+	height: 300px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 4%;
+	/*border: 1px solid black;*/
+	background-image: url(IMG/mapa.png);
+	background-size: 100% 100%;
+}
+
+#d
+{
+	width: 50%;
+	height: 300px;
+	float: left;
+	margin-top: 4%;
+	/*border: 1px solid black;*/
+
+}
+#d h3
+{
+	float: left;
+	margin-top: 0px;
+	color:#9B9B9B;
+	margin-left: 10px;
+}
+
+#d a
+{
+  color:#9B9B9B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#marco {
+   border: 1px solid black;
+    background-image:url(IMG/img2.jpg);
+    background-size: 100% 100%;
+    width:40%;
+    height: auto;
+    margin: auto;
+    margin-top: 15%;
+}
+
+#login
+{
+    border: 1px solid black;
+    width:80%;
+    height:350px;
+    margin: auto;
+}
+
+
+#tabla1
+{
+    border: 1px solid black;
+    width:80%;
+    height: auto;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.text
+{
+    width: 100%;
+    height:30px;
+    border-style: double;
+    border-radius: 20px;
+    font-size:21px;
+    font-family: SansSerif;
+}
+
+#L {
+    margin-left: 15px;
+}
+
+.label 
+{
+    width: 120%;
+    font-size: 21px;
+    font-family:SansSerif;
+    color: #790daa;
+}
+.boton
+{
+    width: 100%;
+    height:25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color:black;
+    color: aliceblue;
+}
+
+.boton:hover
+{
+    background-color: #271e1e;
+}
+
+.boton1
+{
+    width: 50%;
+    margin-top: 10px;
+    margin-left:20%;
+    height:25px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color:black;
+    color: aliceblue;
+}
+
+.boton1:hover
+{
+    background-color: #271e1e;
+}
+
+
+
+
+
+@media (min-width: 1373px) and (max-width: 1523px)
+{
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 3%;
+      font-size: 17px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 15px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+
+}
+
+
+@media (min-width: 1255px) and (max-width: 1372px)
+{
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 1%;
+      font-size: 17px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 15px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+
+}
+
+@media (min-width: 1182px) and (max-width: 1255px)
+{
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 2%;
+      font-size: 15px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 15px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+
+}
+
+@media (min-width: 1119px) and (max-width: 1181px)
+{
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 0%;  
+      font-size: 16px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 12px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+    
+}
+
+@media (min-width: 1000px) and (max-width: 1118px)
+{
+
+  #w3
+  {
+    display: none;
+  }
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 3%;  
+      font-size: 17px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 15px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+    
+}
+
+@media (min-width: 900px) and (max-width: 1000px)
+{
+#w3
+  {
+    display: none;
+  }
+  
+      nav ul {
+      list-style: none;
+      overflow: hidden; /* Limpiamos errores de float */
+    }
+
+    nav ul li
+    {
+      float: left;
+      margin-top: 1%;
+      margin-left: 1%;  
+      font-size: 15px;
+
+    }
+
+    nav ul li a {
+      display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+      padding: 15px; 
+      color: #fff;
+      border: 1px solid red;
+      border-radius: : 20px;
+    }
+    
+}

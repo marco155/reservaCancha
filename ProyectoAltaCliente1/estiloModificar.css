@@ -1,0 +1,274 @@
+﻿body {
+    background-image: url(IMG/fondo1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-attachment:fixed;   
+}
+
+#encabezado
+{
+  width: 100%;
+  height: 100px;
+    background-color: #2C2C2C;
+  
+}
+
+#menuS
+{
+  width: 80%;
+  height: 100px;
+  float: left;
+
+}
+
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li
+{
+  float: left;
+  margin-top: 5px;
+  margin-left: 3%;
+  font-size: 20px;
+
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 25px; 
+  color: #fff;
+  border: 1px solid blue;
+  border-radius: : 20px;
+}
+
+.margin a
+{
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.margin a:hover
+{
+  color: white;
+  background: #6C1EBD;
+}
+
+
+.letra
+{
+  width: 100%;
+  height: 25%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 100%;
+ 
+
+}
+
+#logo
+{
+  width: 26%;
+  height: 100px;
+  float: right;
+  background-image: url(IMG/usa.png);
+}
+
+
+
+
+#usuario
+{
+  width: 20%;
+  height: 100px;
+  float: left;
+}
+
+
+#datos
+{
+  float: left;
+  width: 60%;
+  height: 100px;
+}
+#datos a
+{
+ text-decoration: none;
+  color: red;
+}
+#datos a:hover
+{
+  color: green;
+}
+
+.nada {
+    width:10%;
+    height: 1px;
+    float:left;
+    }
+
+    #marco
+    {
+      width: 78%;
+      height: 500px;
+      margin:auto;
+      margin-top: 5%;
+      border: 5px solid blue;
+      border-radius: 2%;
+    }
+
+
+  #cab
+  {
+  	width: 30%;
+  	margin: auto;
+  	height: 69px;
+  	/*border: 1px solid red;*/
+  }
+
+  #mod 
+  {
+  	margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: green;
+  }
+
+    .lado
+    {
+    	width: 49%;
+    	margin-left: 0.5%;
+    	height: 430px;
+    	/*border: 1px solid red;*/
+    	float: left;
+    }
+
+    .boton
+    {
+    	width: 50%;
+    	height: 12%;
+    	margin-top: 1%;
+    	margin-left: 20%;
+    	border: 1px solid black;
+    	border-radius: 25px;
+    	font-size: 21px;
+    	font-family: serif;
+    	color: black;
+    	background-color: MEDIUMSEAGREEN;
+    }
+
+    .boton:hover
+    {
+     background-color: PALEGREEN;
+    }
+
+    .LT
+    {
+    	width: 48%;
+    	margin-left: 1%;
+    	/*border: 1px solid black;*/
+    	height: 420px;
+    	float: left;
+    }
+
+
+    .label
+    {
+    	width: 50%;
+    	margin-top: 12%;
+    	float: left;
+    	margin-left: 10%;
+    	color: MEDIUMBLUE;
+    	font-size: 120%;
+    	font-family: serif;
+    }
+
+    .text
+    {
+    	
+    	height: 20px;
+    	float: left;
+    	width: 90%;
+    	border: 1px solid black;
+    	color: MEDIUMBLUE;
+        font-family: serif;
+        font-size: 100%;
+    	border-radius: 20px;
+    	margin-top: 12%;
+    }
+
+    #pie
+    {
+    	 width: 100%;
+         height: 110px;
+         background-color: #2C2C2C;
+         opacity: 0.5;
+    }
+
+    #pie:hover
+    {
+    	opacity: 0.7;
+    	background-color:#2C2C1c ;
+    }
+
+
+    #cen
+    {
+    	width: 30%;
+    	height: 70%;
+    	/*border: 1px solid black;*/
+    	margin: auto; 	
+    }
+
+     #botonCen
+    {
+    	width: 50%;
+    	height: 60%;
+    	margin-top: 2%;
+    	margin-left: 20%;
+    	border: 1px solid black;
+    	border-radius: 25px;
+    	font-size: 24px;
+    	font-family: serif;
+    	color: black;
+    	background-color: MEDIUMSEAGREEN;
+    }
+    #botonCen:hover
+    {
+    	background-color: PALEGREEN;
+    }
+
+
+
+    @media (min-width:1275px ) and (max-width: 1600px )
+    {
+    	#w6
+    	{
+    		display: none;
+    	}
+    	 nav ul li
+    	}
+		{
+		  float: left;
+		  margin-top: 5px;
+		  margin-left: 3%;
+		  font-size: 16px;
+
+		}
+
+		nav ul li a {
+		  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+		  padding: 25px; 
+		  color: #fff;
+		  border: 1px solid blue;
+		  border-radius: : 20px;
+		}
+
+    }
